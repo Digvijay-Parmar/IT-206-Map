@@ -7,7 +7,7 @@ class Solution {
                 m[nums[i]]=i;
             }
             
-            for(int i=0;i,nums.size();i++){
+            for(int i=0;i<nums.size();i++){
                 int other=target-nums[i];
     
                 if(m.find(other)!=m.end() && m[other]!=i){
